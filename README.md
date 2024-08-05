@@ -3,10 +3,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 # Installation Guide
-### Step 1. `Clone the repository to your local env.`
+### Step 1. `Clone the repository to your local environment.`
 ### Step 2. `npm i`
-### Step 3. `pip i tensorflow pillow numpy uvicorn fasapi`
-### Step 4. `run server/main.py` (to run fastAPI Server on http://localhost:8000/predict )
+### Step 3. `pip install tensorflow pillow numpy uvicorn fastapi`
+### Step 4. `run server/main.py` (to run fastAPI Server on http://localhost:8000 )
 ### Step 5. `npm start` (to run react app on http://localhost:3000)
 
 
@@ -54,6 +54,11 @@ If you aren't satisfied with the build tool and configuration choices, you can `
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## After running the server i.e. main.py,
+you can test if it is running at 'localhost:8000/ping' \
+you can test the server interactively with FastAPI's swagger UI at 'localhost:8000/docs'
+
 
 ## Learn More
 
